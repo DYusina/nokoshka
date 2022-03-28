@@ -1,6 +1,7 @@
 .classic {
   color: rgb(195, 119, 72);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-family: Georgia, "Times New Roman", Times, serif;*/
+  font-family: "Palette Mosaic", cursive;
 }
 .sassy {
   font-family: cursive;
@@ -8,6 +9,11 @@
   background-color: rgb(215, 116, 116);
   margin-right: 10%;
   margin-left: 10%;
+}
+
+.cool{
+    font-family: 'Rock 3D', cursive;
+    font-size: 50px;
 }
 
 .elf {
