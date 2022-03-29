@@ -1,10 +1,11 @@
 .card {
-  margin: 2% 20%;
+  margin: 2% 15%;
   width: 25em;
   border-radius: 25px;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px rgb(106, 106, 106);
-  padding: 20px 35px;
+  padding: 20px 25px 20px 25px;
+  position: relative;
 }
 .place {
   color: #625883;
@@ -15,23 +16,27 @@
 .fbi {
   text-align: center;
   color: #625883;
-  font-size: 100px;
+  font-size: 120px;
   font-weight: bold;
-  font-family: sans-serif;
-  line-height: 0.1em;
+  line-height: 0.01em;
   font-stretch: expanded;
+  font-family: 'Oswald', sans-serif;
 }
 
 .position {
   color: #625883;
   text-align: center;
   line-height: 0.1em;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  /*left: 20%;*/
 }
+
 .name {
   border-bottom: 3px solid #625883;
   color: black;
-  font-family: 'Covered By Your Grace', cursive;
-  line-height: .1em;
+  font-family: "Covered By Your Grace", cursive;
+  line-height: 0.1em;
 }
 
 .descr {
@@ -42,4 +47,30 @@
   letter-spacing: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 0.1em;
+}
+
+img {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  z-index: -1;
+}
+
+.left {
+  position: absolute;
+  left: 10%;
+}
+
+.center {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.right {
+  position: absolute;
+  right: 10%;
+  height: 130px;
+  width: 110px;
+  border-radius: 20px;
 }
